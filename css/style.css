@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li,ol{
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+}
+.contentwrapper{
+    width: 100%;
+}
+.content{
+    width: 1187px;
+    margin: 0 auto;
+}
+
+/***************************
+header part
+/***************************/
+.headerbg{
+    background-color: #02918C;
+}
+.headerbody{
+    
+}
+.logo{
+    width: 200px; 
+    float: left;
+    padding: 20px 0px 24px;
+}
+.logo img{
+    display: block;
+}
+.nav{
+    width: 987px;
+    float: left;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    position: relative;
+}
+.nav ul li a:before{
+    height: 3px;
+    width: 25%;
+    content: ' ';
+    background: #E98A0B;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.nav ul li a:after{
+    height: 3px;
+    width: 60%;
+    content: ' ';
+    background: #E98A0B;
+    position: absolute;
+    top: 65%;
+    right: 18%;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.nav ul li:hover a::before{
+    opacity: 1;
+}
+.nav ul li:hover a::after{
+    opacity: 1;
+}
+
+
+/***************************
+header part end
+/***************************/
+
+/***************************
+banner part end
+/***************************/
+.bannerbg{
+    background-image: url(../images/banner/banner.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.overlay{
+    padding: 209px 0px;
+    color: rgba(0,0,0,0.6);
+}
+.bannerbody{
+    
+}
+.bannerbody p{
+    font-size: 30px;
+    line-height: 25px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bannerbody h1{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800;
+    line-height: 75px;
+    font-size: 68px;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.bannerbody i{
+    width: 114px;
+    height: 25px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bannerbody a{
+    display: inline-block;
+    padding: 19px 35px;
+    background: #CFC91D;
+    color: black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/***************************
+banner part end
+/***************************/
+
+/***************************
+about me part
+/***************************/
+.aboutmebg{
+    padding: 100px 0px 80px;
+}
+.aboutmebody{
+    
+}
+
+/*******common heading*********/
+
+.commonheading{
+    margin: 0 auto;
+}
+.commonheading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918C;
+    text-transform: uppercase;
+    text-align: center;
+}
+.commonheading p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+    font-weight: 400;
+    text-align: center;
+}
+.paragraph
+{
+    width: 878px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.aboutmebody .paragraph p{
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    line-height: 41px;
+    color: #7e8287;
+    text-align: center;
+}
+.aboutmebody .paragraph p span{
+    font-size: 23px;
+    font-weight: 800;
+    color: #575757;
+}
+
+/*    title goes*/
+.aboutmebody .titlegoes{
+    width: 161px;
+    float: left;
+    padding: 33px 63px 50px;
+}
+.aboutmebody .titlegoes .icon{
+    margin: 0 auto;
+    width: 35px;
+    height: 35px;
+    padding-bottom: 30px;
+}
+.aboutmebody .titlegoes .icon a{
+    display: block;
+}
+.aboutmebody .titlegoes .icon a i{
+    text-align: center;
+    color: #70c1be;
+    font-size: 35px;
+}
+.aboutmebody .titlegoes h4{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #7e8287;
+}
+.aboutmebody .titlegoes p{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+    color: #7e8287;
+}
+.borderleft{
+    border-left: 1px solid #7e8287;
+}
+/***************************
+about me part end
+/***************************/
+
+/***************************
+ services part 
+/***************************/
+.servicesbg{
+    background-image: url(../images/services/services.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px 0px 87px;
+}
+
+.servicesbody{
+    
+}
+.serviceleft{
+    width: 548px;
+    float: left;
+    padding-left: 45px;
+}
+.serviceleft .commonheading{
+    margin-left: 0px;
+    text-align: left;
+}
+.serviceleft .commonheading h2{
+    text-align: left;
+}
+.serviceleft .commonheading p{
+    text-align: left;
+}
+.serviceleft .serviceparagraph{
+    width: 474px;
+    
+}
+.commonheading p.p2{
+    padding-bottom: 65px;
+}
+.commonheadign p span{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+    font-weight: 400;
+
+}
+
+/*service gose title*/
+
+.serviceleft .servicetitegoes{
+    width: 165px;
+    float: left;
+}
+.serviceleft .servicetitegoes .servicetitleicon{
+    padding-bottom: 10px;
+}
+.serviceleft .servicetitegoes a{
+    display: block;
+}
+.serviceleft .servicetitegoes a i{
+    text-align: center;
+    color: #70c1be;
+    font-size: 35px;
+}
+.serviceleft .servicetitegoes h4{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #7e8287;
+}
+.serviceleft .servicetitegoes p{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #7e8287;
+}
+.paddingright{
+    padding-right: 113px;
+}
+.paddignbottom{
+    padding-bottom: 45px;
+}
+
+.serviceright{
+    width: 593px;
+    float: left;
+}
+
+
+
+
+/***************************
+ services part end
+/***************************/
+
+/***************************
+ mywork part 
+/***************************/
+.myworkbg{
+    
+}
+.myworkbody{
+    width: 100%;
+}
+.commonheading .p{
+    width: 685px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.myworkimages{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+.myworkimages img{
+    display: block;
+    width: 100%;
+}
+.myworkimages .myworkoverlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 80%;
+    width: 80%;
+    background: rgba(27, 139, 129, 0.56);
+}
+.myworkimages .myworkoverlay .overlayelements{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 85%;
+    width: 85%;
+}
+.myworkimages .myworkoverlay .overlayelements h5{
+    font-family: 'Opens Sans',sans-serif;
+    font-weight: 800;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.myworkimages .myworkoverlay .overlayelements p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    padding: 10px 5px 0px;
+    text-align: center;
+}
+
+/***************************
+ my work part end
+/***************************/
+
+/***************************
+ form part 
+/***************************/
+.formbg{
+    width: 100%;
+    margin: 0 auto;
+    background: #0B0B0B;
+    color: #616568;
+    padding: 50px 0px;
+}
+.formbody{
+    width: 970px;
+    text-align: center;
+    margin: 0 auto;
+}
+form input{
+    width: 640px;
+    text-align: center;
+    margin-bottom: 65px;
+    border: 0;
+    background: inherit;
+    border-bottom: 1px solid #616568;
+    color: #616568;
+    padding: 5px;
+}
+form textarea{
+    width: 90%;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid #616568;
+    border-top: 1px solid #616568;
+    background: inherit;
+    resize: none;
+    height: 100px;
+    color: #616568;
+    margin-top: 10px;
+}
+form button{
+    color: black;
+    padding: 10px 65px;
+    background: #cfc91d;
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800;
+    margin-top: 65px;
+    border: 0;
+    
+}
+/***************************
+ form part end
+/***************************/
+
+/***************************
+ footer part 
+/***************************/
+
+.footerbg{
+    background-color: black;
+    color: #7e8287;;
+    text-align: center;
+}
+.footerbg p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+
+
+
+/***************************
+ footer part end
+/***************************/
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
